@@ -1,0 +1,77 @@
+.banner{
+    width : 100vw;
+    height : 30rem;
+    background-position : center center;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+.container-fluid{
+    width : 100vw;
+    margin : 0px;
+    padding : 0px;
+    margin-bottom : 30px;
+}
+.banner-content{
+    background : transparent;
+    color : white;
+    padding-top : 10%;
+}
+.movie-title{
+    background : transparent;
+    font-size : 40px;
+    padding-left : 40px;
+}
+.movie-desc{
+    background : transparent;
+    width : 40vw;
+    font-size : 20px;
+    padding-left : 40px;
+}
+.banner-btn{
+    background : transparent;
+    display : flex;
+    padding-bottom : 5px;
+    padding-left : 40px;
+}
+.ratings{
+    display : flex;
+    background : transparent;
+    padding-left : 30px;
+    align-items : center;
+}
+.imdb-logo{
+    background : transparent;
+    height : 40px;
+    object-fit : contain;
+}
+.imdb-star{
+    background : transparent;
+    height :22px;
+    padding-bottom : 4px;
+    object-fit : contain;
+}
+.rating-content{
+    background : transparent;
+    font-size : 20px;
+    margin-bottom : 2px;
+}
+.play-btn{
+    background-color : #E50914; 
+    border : none;
+    padding : 5px 25px 5px 25px;
+    font-size : 20px;
+    margin-right : 10px; 
+}
+.more-btn{
+    color : white;
+    font-size : 20px;
+}
+.banner-footer{
+    height : 10rem;
+    width : 100vw !important;
+    position : relative;
+    bottom : 0px;
+    background : transparent;
+    background-image : linear-gradient(180deg, transparent, rgba(51,51,51,0.68), #111);
+}
+

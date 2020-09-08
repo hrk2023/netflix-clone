@@ -1,0 +1,53 @@
+.row-container{
+    padding : 20px;
+    max-height : 30rem;
+}
+h1{
+    font-size : 25px;
+    padding-left : 20px;
+    color : white;
+}
+.movie-row{
+    overflow-x : scroll;
+    overflow-y : hidden;
+    display : flex;
+    height : 20rem;
+    padding : 20px;
+}
+
+.movie-small{
+    overflow-x : scroll;
+    overflow-y : hidden;
+    display : flex;
+    height : 14rem;
+    padding : 10px;
+}
+.movie-small::-webkit-scrollbar{
+    display : none;
+}
+.movie-row::-webkit-scrollbar{
+    display : none;
+}
+.movie-row::-moz-scrollbar{
+    display : none;
+}
+.poster{
+    object-fit : contain;
+    margin-left : 10px;
+    max-height : 200px;
+    width : 100%;
+    transition : transform 0.4s ease-in-out;
+}
+.poster:hover{
+    transform : scale(1.02);
+}
+.poster-large{
+    object-fit : contain;
+    margin-left : 5px;
+    max-height: 300px;
+    width : 100%;
+    transition : transform 0.4s ease-in-out;
+}
+.poster-large:hover{
+    transform : scale(1.08);
+}
