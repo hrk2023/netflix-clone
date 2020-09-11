@@ -1,6 +1,6 @@
 .banner{
     width : 100vw;
-    height : 30rem;
+    height : 50rem;
     background-position : center center;
     background-repeat : no-repeat;
     background-size : cover;
@@ -61,16 +61,32 @@
     padding : 5px 25px 5px 25px;
     font-size : 20px;
     margin-right : 10px; 
+    transition : all 0.4s ease-in-out;
+}
+.play-icon{
+    background : transparent;
+    margin-bottom : 4px;
+    padding-right : 4px;
+    font-size : 24px;
+}
+.play-btn:hover{
+    background-color : white;
+    color : #E50914;
 }
 .more-btn{
     color : white;
     font-size : 20px;
 }
+.mylist-icon{
+    background : transparent;
+    padding-right : 4px;
+    margin-bottom : 4px;
+}
 .banner-footer{
     height : 10rem;
     width : 100vw !important;
     position : relative;
-    bottom : 0px;
+    top : 40rem;
     background : transparent;
     background-image : linear-gradient(180deg, transparent, rgba(51,51,51,0.68), #111);
 }

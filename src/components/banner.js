@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import '../static/banner.css';
+import { BsFillCaretRightFill } from 'react-icons/bs';
+import { FaListUl } from 'react-icons/fa';
 function Banner({ url }){
     const[banner, setBanner] = useState([]); 
     useEffect(() => {
@@ -32,8 +34,8 @@ function Banner({ url }){
                     <p className="rating-content">{banner.vote_average}</p>
                 </div>
                 <div className="banner-btn">
-                    <button class="btn btn-secondary play-btn">Play</button>
-                    <button class="btn btn-secondary more-btn">More Info</button>
+                    <button class="btn btn-secondary play-btn"><BsFillCaretRightFill className="play-icon"/>Play</button>
+                    <button class="btn btn-secondary more-btn"><FaListUl className="mylist-icon" />My List</button>
                 </div>
                 <div className="movie-desc">{descriptionShortener(banner.overview,100)}</div>
             </div>

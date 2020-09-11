@@ -1,6 +1,6 @@
 .row-container{
-    padding : 20px;
-    max-height : 30rem;
+    padding-left : 20px;
+    max-height : 80rem;
 }
 h1{
     font-size : 25px;
@@ -11,15 +11,14 @@ h1{
     overflow-x : scroll;
     overflow-y : hidden;
     display : flex;
-    height : 20rem;
+    height : 32rem;
     padding : 20px;
 }
 
 .movie-small{
     overflow-x : scroll;
-    overflow-y : hidden;
     display : flex;
-    height : 14rem;
+    height : 25rem;
     padding : 10px;
 }
 .movie-small::-webkit-scrollbar{
